@@ -1,0 +1,40 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+.EgresoCoordenadas{
+    background-color: #121221;
+    border-width: 0;
+    border-radius: 1em;
+    height: 50px;
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 30px;
+    text-align: center; 
+    margin-left: 0.5em;
+    
+}
+
+input:focus {
+    border: 3px;
+    outline: none !important; 
+    border: 3px solid #732EAE;
+    color: #732EAE;
+  }
+
+  @media (max-width: 800px) {
+    .eje {
+      display: flex;
+      flex: 30%;
+    }
+    .EgresoCoordenadas {
+      width: 100%;
+  }
+  }
+  @media (max-width: 1370px) {
+    .EgresoCoordenadas {
+        width: 120%;
+    }
+    .eje{
+        display: flex;
+      flex: 30%;
+    }
+  }
+  

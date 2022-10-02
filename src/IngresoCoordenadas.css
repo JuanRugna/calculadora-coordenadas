@@ -1,0 +1,41 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.eje{
+    margin-left: 100px;
+    
+}
+.ingresoCoordenadas{
+    background-color: #121221;
+    border-width: 0;
+    border-radius: 1em;
+    height: 50px;
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 30px;
+    text-align: center; 
+    margin-left: 0.5em;
+}
+
+
+@media (max-width: 800px) {
+  .eje {
+    display: flex;
+    flex: 30%;
+  }
+  .ingresoCoordenadas {
+    width: 100%;
+}
+}
+@media (max-width: 1370px) {
+  .ingresoCoordenadas {
+      width: 120%;
+  }
+  .eje{
+      display: flex;
+    flex: 30%;
+  }
+}
