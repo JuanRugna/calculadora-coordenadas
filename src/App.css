@@ -22,13 +22,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  padding: 1em;
+  gap: 1em;
 }
 
 .fotoPortal{
-  height: 400px;
-  width: 200px;
-  margin: 20px;
+  height: 300px;
+  width: 150px;
 }
 
 .titulo{
@@ -78,12 +78,23 @@ body{
     flex-direction: column;
     gap: 0.4em;
   }
+  .titulo-contenedor{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
   .titulo{
     font-size: 30px;
   }
   .fotoPortal{
-    height: 300px;
-    width: 150px;
+    height: 220px;
+    width: 120px;
   }
   
+  
+}
+@media (max-width: 500px) {
+.titulo-contenedor{
+  justify-content: left;
+}
 }
